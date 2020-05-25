@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.slideShow {
+    margin: 185px 0;
+    width: 100%;
+    height: 25vw;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: 'heebo', Sans-Serif;
+    color: #515151;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'heebo', Sans-Serif;
+    color: #515151;
+}
+
+.container_aanbod {
+    width: 50%;
+}
+
+.content_presentatie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.container_img_aanbod {
+    width: 50%;
+}
+
+.img_aanbod {
+    width: 100%;
+    transform: scaleX(-1);
+    filter: "flipH()";
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .slideShow {
+        height: 40vw;
+        margin: 100px 0;
+    }
+
+    .container_aanbod {
+        width: 83%;
+    }
+
+    .content_presentatie {
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .container_img_aanbod {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .img_aanbod {
+        width: 20%;
+    }
+}

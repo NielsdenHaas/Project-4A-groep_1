@@ -1,17 +1,3 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="language" content="nl">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="N. den Haas">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">       
-</head>
-
 <style>
 
 @charset "utf-8";
@@ -47,11 +33,6 @@
 		margin: 0;
 		padding: 0;
     }
-    
-body {
-    width: 60%;
-    margin: 0 20%;
-}
 
 header {
     display: flex;
@@ -73,13 +54,7 @@ header {
 
 </style>
 
-<body>
-    
-    <header>   
-        <img id="logo_mathMate" src="images/logo.jpg" alt="Image van het logo"> 
-        <img id="log-in_icoon" src="images/log-in-icon.PNG" alt="log-in Icoon">
-    </header>    
-    
- </body>
-    
-</html>
+<header>
+    <img id="logo_mathMate" src="images/logo.jpg" alt="Image van het logo">
+    <img id="log-in_icoon" src="images/log-in-icon.PNG" alt="log-in Icoon">
+</header>
