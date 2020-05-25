@@ -40,7 +40,7 @@
     footer p {
         color: #707070;
         font-size: 0.8rem;
-        margin-top: 2vw
+        margin-top: 2vw;
     }
 }
 
@@ -55,7 +55,7 @@
     }
 
     #rekenmachine {
-        width: 3vw
+        width: 3vw;
     }
 
     footer {
@@ -65,6 +65,7 @@
 
     footer p {
         color: #707070;
+        margin-top: 2vw
     }
 }
 
