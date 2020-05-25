@@ -1,0 +1,87 @@
+@charset "utf-8";
+@media only screen and (max-width: 768.9px){
+	* {
+		margin: 0;
+		padding: 0;
+    }
+    
+    body {
+        font-family: "Heebo";
+    }
+
+    #inhoud h1 {
+        font-weight: normal;
+        margin-bottom: 4vw;
+        margin-top: 10vw;
+        font-size: 1.6rem;
+    }
+
+    #inhoud p {
+        color: #707070;
+        width: 80vw;
+       font-size: 1.2rem;
+    }
+
+    #inhoud {
+        margin: 3vw 0 2vw 6vw;
+    }
+
+    #stickman_image {
+        width:75vw;
+        margin: 5vw 0 3vw 10vw;
+    }
+
+    #Button {
+        padding: 0.7vw 2vw 0.7vw 2vw;
+        border-radius: 20px;
+        background-color: #1E85DF;
+        color: white;
+        margin-top: 4vw;
+    }
+}
+
+@media only screen and (min-width: 769px){
+	* {
+		margin: 0;
+		padding: 0;
+    }
+    
+body {
+    font-family: "Heebo";
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+#inhoud h1 {
+    width: 24vw;
+    font-size: 2.1rem;
+    font-weight: normal;
+}
+
+#inhoud p {
+    width: 20vw;
+    font-size: 1.2rem;
+    color: #707070;
+}
+
+#inhoud {
+    margin-top: 2vw;
+}
+
+#Button {
+    padding: 0.7vw 2vw 0.7vw 2vw;
+    border-radius: 20px;
+    background-color: #1E85DF;
+    color: white;
+    margin-top: 1vw;
+}
+
+#stickman_image {
+    width: 33vw;
+}
+}
