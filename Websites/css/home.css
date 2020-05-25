@@ -48,6 +48,8 @@
     
 body {
     font-family: "Heebo";
+    width: 60%;
+    margin: 0 20%;
 }
 
 main {

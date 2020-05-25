@@ -1,21 +1,4 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="language" content="nl">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="N. den Haas">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">       
-</head>
-
 <style>
-
-
-@charset "utf-8";
 @media only screen and (max-width: 768.9px){
     * {
 		margin: 0;
@@ -61,9 +44,11 @@
     footer {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     footer p {
+        font-family: 'heebo', Sans-Serif;
         color: #707070;
         margin-top: 2vw
     }
@@ -71,16 +56,8 @@
 
 </style>
 
-<body>
-    
-    <footer>
-
-        <img id="mascotte" src="images/mascotte.jpg" alt="mascotte van de website">
-        <p>@ 2020 Math Mate || All rights reserved</p>
-        <img id="rekenmachine" src="images/RekenMachine.PNG" alt="Icoon van een rekenmachine">
-    
-    </footer>
-    
- </body>
-    
-</html>
+<footer>
+    <img id="mascotte" src="images/mascotte.jpg" alt="mascotte van de website">
+    <p>@ 2020 Math Mate || All rights reserved</p>
+    <img id="rekenmachine" src="images/RekenMachine.PNG" alt="Icoon van een rekenmachine">
+</footer>
