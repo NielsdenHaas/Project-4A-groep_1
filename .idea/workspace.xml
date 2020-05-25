@@ -30,7 +30,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc2f382f-c388-4937-97fe-09ecc6aa6b8e" name="Default Changelist" comment="" />
+    <list default="true" id="dc2f382f-c388-4937-97fe-09ecc6aa6b8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Websites/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Websites/header.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590392179350</updated>
       <workItem from="1590392180612" duration="7603000" />
+      <workItem from="1590400963531" duration="6634000" />
     </task>
     <servers />
   </component>
@@ -92,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1590393396607">
