@@ -30,10 +30,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc2f382f-c388-4937-97fe-09ecc6aa6b8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Websites/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Websites/header.php" afterDir="false" />
-    </list>
+    <list default="true" id="dc2f382f-c388-4937-97fe-09ecc6aa6b8e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../startUp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -80,6 +77,7 @@
       <updated>1590392179350</updated>
       <workItem from="1590392180612" duration="7603000" />
       <workItem from="1590400963531" duration="6634000" />
+      <workItem from="1590408228555" duration="20000" />
     </task>
     <servers />
   </component>
@@ -99,6 +97,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590408245888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590408245888" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1590393396607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
