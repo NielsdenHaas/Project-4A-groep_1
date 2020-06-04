@@ -1,0 +1,48 @@
+@charset "utf-8";
+@media only screen and (max-width: 768.9px){
+	* {
+		margin: 0;
+		padding: 0;
+    }
+    
+    body {
+        font-family: "Heebo";
+    }
+
+}
+
+@media only screen and (min-width: 769px){
+	* {
+		margin: 0;
+		padding: 0;
+    }
+    
+body {
+    font-family: "Heebo";
+    width: 60%;
+    margin: 0 20%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+.inputsection {
+    padding: 40px;
+    border-radius: 5px;
+    border: #1E85DF 4px solid;
+}
+.inputsection input {
+    border-radius: 20px;
+    padding: 5px;
+    width: 15vw;
+}
+.submit {
+    background-color: #1E85DF;
+    color: white;
+    border: solid 1px #707070;
+    width: 5vw !important;
+}
+}
