@@ -1,0 +1,17 @@
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: 'heebo', Sans-Serif;
+    color: #1E85DF;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'heebo', Sans-Serif;
+    color: #515151;
+}
+
+body {
+    width: 60%;
+    margin: 0 0 0 20%;
+}
