@@ -8,11 +8,13 @@
     <meta name="author" content="M. de Haard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MathMate | Presentatie</title>
-    <script type="text/javascript" src="script/presentatie.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reeksen.css">
+    <script type="text/javascript" src="script/reeksen.js"></script>
 </head>
 
 <body>
+
+<?php include 'header-ingelogd.php'; ?>
 
 <main>
     <section class="container_reeksen">
@@ -27,10 +29,12 @@
     </section>
 
     <form class="form_reeksen">
-        <label>Reeksen tot:</label>
-        <input type="number" placeholder="Invoer..." id="invoer">
-        <input type="button" value="Bereken">
-        <select id="reeks">
+        <section class="reeksen_tot">
+            <label class="label_reeksen">Reeksen tot:</label>
+            <input class="input_reeksen" type="number" placeholder="Invoer..." id="invoer">
+        </section>
+        <input class="bereken" type="button" value="Bereken" onclick="bereken()">
+        <select id="reeks" class="select_reeks">
             <option>Fibonacci</option>
             <option>Priem Getallen</option>
         </select>
@@ -52,6 +56,8 @@
         <img src="" class="img_berekening">
     </section>
 </main>
+
+<?php include 'footer.php'; ?>
 
 </body>
 </html>

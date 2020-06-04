@@ -1,20 +1,4 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="language" content="nl">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="N. den Haas">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">       
-</head>
-
 <style>
-
-@charset "utf-8";
 @media only screen and (max-width: 768.9px){
 	* {
 		margin: 0;
@@ -32,11 +16,6 @@
     margin: 2vw 0 0 2vw;
 }
 
-    #log-in_icoon {
-    width: 9vw;
-    height: 100%;
-    margin: 5vw 5vw 0 0;
-}
 #hamburger {
     color: #1E85DF;
     font-size: 2rem;
@@ -45,17 +24,11 @@
 }
 
 
-@charset "utf-8";
 @media only screen and (min-width: 769px){
 	* {
 		margin: 0;
 		padding: 0;
     }
-    
-body {
-    width: 60%;
-    margin: 0 20%;
-}
 
 header {
     display: flex;
@@ -66,12 +39,6 @@ header {
 #logo_mathMate {
     width: 20vw;
     height: 100%;
-}
-
-#log-in_icoon {
-    width: 3vw;
-    height: 100%;
-    margin-top: 1.5vw;
 }
 
 #hamburger {

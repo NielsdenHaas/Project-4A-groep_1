@@ -12,6 +12,124 @@ p {
 }
 
 body {
+    font-family: 'heebo', Sans-Serif;
     width: 60%;
     margin: 0 0 0 20%;
+}
+
+.container_reeksen {
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.img_reeksen {
+    height: 200px;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.reeksen_tot { grid-area: input}
+
+.bereken {
+    align-self: center;
+    grid-area: button;
+    height: 90%;
+    width: 80%;
+    background-color: #DE781F;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.select_reeks {
+    grid-area: select;
+    width: 70%;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#antwoord {
+    grid-area: output;
+    border-radius: 20px;
+    border: #707070 solid 3px;
+    padding: 20px;
+    height: auto;
+    min-height: 300px;
+}
+
+.form_reeksen {
+    width: 80%;
+    margin-bottom: 100px;
+
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100px 60px auto;
+    grid-template-areas:
+    'input input'
+    'button select'
+    'output output';
+}
+
+.input_reeksen {
+    width: 100%;
+    height: 50%;
+    padding: 0 0 0 10px;
+    border: #707070 solid 2px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.label_reeksen {
+    display: block;
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.container_berekening {
+    margin-bottom: 100px;
+    display: flex;
+}
+
+@media only screen and (max-width: 1350px) {
+    .container_reeksen {
+        flex-direction: column;
+    }
+
+    .img_reeksen {
+        width: 80%;
+        height: auto;
+    }
+
+    .form_reeksen {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    body {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .img_reeksen {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bereken {
+        font-size: 18px;
+    }
+
+    .select_reeks {
+        font-size: 18px;
+    }
 }
