@@ -209,6 +209,6 @@ if (isset($_POST["submit"])) {
         echo "<p class='errorMessage'><strong>" . $errorMessage . "</strong></p>";
         ?>
         <input type="submit" value="Log in" class="loginbtn btn" name="submit">
-        <input type="button" value="Registreer" class="registreerbtn btn">
+        <input onclick="parent.location='registratie.php'" type="button" value="Registreer" class="registreerbtn btn">
     </form>
 </header>
