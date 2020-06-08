@@ -38,6 +38,7 @@ main {
     border-radius: 20px;
     padding: 5px;
     width: 15vw;
+    border: #515151 solid 2px;
 }
 .submit {
     background-color: #1E85DF;
