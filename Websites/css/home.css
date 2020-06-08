@@ -7,8 +7,8 @@
     
     body {
         font-family: "Heebo";
-        width: 60%;
-        margin: 0 20%;
+        width: 94%;
+        margin: 0 3%;
     }
 
     #inhoud h1 {
@@ -39,6 +39,7 @@
         background-color: #1E85DF;
         color: white;
         margin-top: 4vw;
+        border: none;
     }
 }
 
@@ -83,6 +84,7 @@ main {
     background-color: #1E85DF;
     color: white;
     margin-top: 1vw;
+    border: none;
 }
 
 #stickman_image {

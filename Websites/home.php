@@ -7,8 +7,8 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="N. den Haas">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
 	<title></title>
-	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/home.css">       
 </head>
 
