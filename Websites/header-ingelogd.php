@@ -13,13 +13,13 @@
     #logo_mathMate {
     width: 50vw;
     height: 100%;
-    margin: 2vw 0 0 2vw;
+    margin: 20px 0 0 2vw;
 }
 
 #hamburger {
     color: #1E85DF;
     font-size: 2rem;
-    margin: 0 4vw 0 0;
+    margin: 4vw 4vw 0 0;
 }
 }
 
