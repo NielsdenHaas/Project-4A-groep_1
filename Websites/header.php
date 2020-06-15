@@ -136,7 +136,7 @@ if (isset($_POST["submit"])) {
 		margin: 0;
 		padding: 0;
     }
-
+}
     @media only screen and (min-width: 769px) {
         * {
             margin: 0;
