@@ -32,13 +32,15 @@
                 } else {
                     require("dbconnect.php");
 
-                    $sqlReg = "SELECT * FROM users WHERE email = '" . trim($_POST['emailReg']) . "'";
+                    $registratieMail = makeSafe($_POST['emailReg']);
+                    $registratieMail = $conn->real_escape_string($registratieMail);
+
+                    $sqlReg = "SELECT * FROM users WHERE email = '" . $registratieMail . "'";
                     $result = $conn->query($sqlReg);
                     if (mysqli_num_rows($result) == "0") {
                         $pwReg = trim($_POST['passwordReg']) . "EebfgJJdJ8";
-                        $dbpassReg = password_hash($pwReg, PASSWORD_BCRYPT, $option);
-                        $emailReg = trim($_POST['emailReg']);
-                        $sqlReg = "INSERT INTO users (email, password) VALUES ('{$emailReg}', '{$dbpassReg}')";
+                        $dbpassReg = password_hash($pwReg, PASSWORD_BCRYPT, $option);;
+                        $sqlReg = "INSERT INTO users (email, password) VALUES ('{$registratieMail}', '{$dbpassReg}')";
                         $conn->query($sqlReg);
                         $errorMessageReg = "account aangemaakt";
                     } else {
