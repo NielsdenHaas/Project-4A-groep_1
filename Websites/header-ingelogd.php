@@ -1,3 +1,12 @@
+<?php 
+session_start();
+if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
+    echo '<script>console.log("Logged in!")</script>';
+} else {
+    header("Location: home.php");
+}
+
+?>
 <style>
 @media only screen and (max-width: 768.9px){
 	* {
