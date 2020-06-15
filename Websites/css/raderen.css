@@ -1,0 +1,72 @@
+@charset "utf-8";
+@media only screen and (max-width: 768.9px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		font-family: "Heebo";
+		width: 60%;
+		margin: 0 20%;
+	}
+	main {
+        margin-top: 50px;
+    }
+    .wheels {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .arrow {
+        position: relative;
+        top: 30px;
+    }
+    .wheeldiv {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		font-family: "Heebo";
+		width: 60%;
+		margin: 0 20%;
+	}
+	main {
+        height: 700px;
+        margin-top: 50px;
+    }
+    .wheels {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .arrow {
+        position: relative;
+        top: 30px;
+    }
+    .wheeldiv {
+        width: 300px;
+    }
+}
+
+button {
+	height: 30px;
+	margin-top: 5vw;
+	background-color: #1E85DF;
+	color: white;
+	border: solid 1px #707070;
+	width: 50px;
+	border-radius: 20px;
+}
+
+span {
+	font-size: 4rem;
+}
