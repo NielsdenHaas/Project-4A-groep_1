@@ -1,3 +1,42 @@
+<?php
+
+function makeSafe($waarde)
+{
+    $waarde = trim($waarde);
+    $waarde = stripslashes($waarde);
+    $waarde = htmlspecialchars($waarde);
+    return $waarde;
+}
+
+$errorMessage = "";
+if (isset($_POST["submit"])) {
+    if (!empty($_POST["email"]) && !empty($_POST["password"])) {
+        require("dbconnect.php");
+        $password = trim($_POST["password"]) . "EebfgJJdJ8";
+
+        $mail = makeSafe($_POST['email']);
+        $mail = $conn->real_escape_string($mail);
+
+        $sql = "SELECT * FROM users WHERE email = '" . $mail . "'";
+
+        if ($result = $conn->query($sql)) {
+            $dbuser = $result->fetch_row();
+            $dbpassword = $dbuser[2];
+            if (password_verify($password, $dbpassword)) {
+                session_start();
+                $_SESSION["loggedIn"] = true;
+
+                header("Location: placeholder.php");
+            } else {
+                $errorMessage = "Incorecte gegevens ingevuld!";
+            }
+        }
+    } else {
+        $errorMessage = "alle velden zijn verplicht!";
+    }
+}
+?>
+
 <style>
     @media only screen and (max-width: 768.9px) {
         * {
@@ -161,33 +200,6 @@
         document.getElementById('menu').style.opacity = '0';
     }
 </script>
-
-<?php
-$errorMessage = "";
-if (isset($_POST["submit"])) {
-    if (!empty($_POST["email"]) && !empty($_POST["password"])) {
-        require("dbconnect.php");
-        $password = trim($_POST["password"]) . "EebfgJJdJ8";
-
-        $sql = "SELECT * FROM users WHERE email = '" . trim($_POST['email']) . "'";
-
-        if ($result = $conn->query($sql)) {
-            $dbuser = $result->fetch_row();
-            $dbpassword = $dbuser[2];
-            if (password_verify($password, $dbpassword)) {
-                session_start();
-                $_SESSION["loggedIn"] = true;
-
-                header("Location: placeholder.php");
-            } else {
-                $errorMessage = "Incorecte gegevens ingevuld!";
-            }
-        }
-    } else {
-        $errorMessage = "alle velden zijn verplicht!";
-    }
-}
-?>
 
 <header>
     <img id="logo_mathMate" src="images/logo.jpg" alt="Image van het logo">
