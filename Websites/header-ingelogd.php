@@ -115,6 +115,10 @@ header {
     transition: 1s;
 }
 
+#hamburger:hover{
+    cursor: pointer;
+}
+
 #hamburger_menu a {
     display: block;
     text-align: right;
