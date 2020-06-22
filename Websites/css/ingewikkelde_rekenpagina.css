@@ -7,12 +7,30 @@ input, button  {
     padding: 10px 20px;
 }
 
+select {
+    width: 45vw;
+    height: 2.5vw;
+}
+header {
+    margin-bottom: 2vw;
+}
+
 form {
-    margin-top: 5vw;
+    width: 90%;
+    text-align: center;
+    margin: 0 5%;
 }
 
 .jumbotron {
-    width: 80%;
+    width: 45vw;
     text-align: center;
-    margin: 0 10%;
+    margin: 0.5vw 0 0 4.6vw;
+}
+.input {
+    width: 14.8vw;
+    margin: 0.5vw 0 0 0;
+}
+.button {
+    width: 22.4vw;
+    margin: 0.5vw 0 0 0;
 }

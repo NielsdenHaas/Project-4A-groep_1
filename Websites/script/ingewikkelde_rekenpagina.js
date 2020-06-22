@@ -86,7 +86,7 @@ function opzetKeuze() {
         document.getElementById("omreken-talstelsel").style.display = "inline";
         document.getElementById("van").style.display = "inline";
         document.getElementById("naar").style.display = "inline";
-    } else if (keuze === "Factorizer"){ 
+    } else if (keuze === "Factorizer"){
         document.getElementById("van").style.display = "none";
         document.getElementById("naar").style.display = "none";
     }

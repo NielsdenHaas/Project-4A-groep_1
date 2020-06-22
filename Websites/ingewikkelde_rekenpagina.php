@@ -27,11 +27,11 @@ include "header-ingelogd.php";
             <option value="Talstelsel">Berekenen Talstelsel!</option>
             <option value="Factorizer">Factorizer!</option>
         </select>
-        <input type="number" id="omreken-talstelsel" placeholder="getal invoeren....">
-        <input type="number" id="van" placeholder="van....">
-        <input type="number" id="naar" placeholder="naar....">
-        <input type="button" value="Bereken!" onclick="Bereken()">
-        <input type="button" value="Wissen" onclick="resetform()">
+        <input class="input" type="number" id="omreken-talstelsel" placeholder="getal invoeren....">
+        <input class="input" type="number" id="van" placeholder="van....">
+        <input class="input" type="number" id="naar" placeholder="naar....">
+        <input class="button" type="button" value="Bereken!" onclick="Bereken()">
+        <input class="button" type="button" value="Wissen" onclick="resetform()">
         <div class="row form-group">
             <div class="col-10">
                 <div id="dResultaat" class="jumbotron"></div>
