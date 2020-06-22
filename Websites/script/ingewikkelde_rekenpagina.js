@@ -82,10 +82,11 @@ function resetform() {
 
 function opzetKeuze() {
     var keuze = document.getElementById("opKeuze").value;
-    if (keuze == "Factorizer") {
+    if (keuze == "Talstelsel") {
+        document.getElementById("omreken-talstelsel").style.display = "inline";
         document.getElementById("van").style.display = "inline";
         document.getElementById("naar").style.display = "inline";
-    } else {
+    } else if (keuze === "Factorizer"){ 
         document.getElementById("van").style.display = "none";
         document.getElementById("naar").style.display = "none";
     }

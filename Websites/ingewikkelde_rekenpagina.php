@@ -22,22 +22,23 @@ include "header-ingelogd.php";
 
 <main>
 
-<form>
-    <select id="opKeuze">
-        <option id="Talstelsel" value="Talstelsel" placeholder="Berekenen Talstelsel">...</option>
-        <option id="Factorizer" value="Factorizer" placeholder="Factorizer">...</option>
-    </select>
-    <input type="number" id="omreken-talstelsel" placeholder="getal invoeren....">
-    <input type="number" id="van" placeholder="van....">
-    <input type="number" id="naar" placeholder="naar....">
-    <input type="button" value="Bereken!" onclick="Bereken()">
-    <input type="button" value="Wissen" onclick="resetform()">
-    <div class="row form-group">
-        <div class="col-sm-12">
-            <div id="dResultaat" class="jumbotron"></div>
+    <form>
+        <select onchange="opzetKeuze()" id="opKeuze">
+            <option value="Talstelsel">Berekenen Talstelsel!</option>
+            <option value="Factorizer">Factorizer!</option>
+        </select>
+        <input type="number" id="omreken-talstelsel" placeholder="getal invoeren....">
+        <input type="number" id="van" placeholder="van....">
+        <input type="number" id="naar" placeholder="naar....">
+        <input type="button" value="Bereken!" onclick="Bereken()">
+        <input type="button" value="Wissen" onclick="resetform()">
+        <div class="row form-group">
+            <div class="col-10">
+                <div id="dResultaat" class="jumbotron"></div>
+            </div>
         </div>
-    </div>
-</form>
+    </form>
+
 
 </main>
 
