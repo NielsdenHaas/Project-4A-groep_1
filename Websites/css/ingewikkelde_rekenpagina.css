@@ -1,7 +1,6 @@
 body {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    width: 60%;
+    margin: 0 20%;
 }
 
 input, button  {
@@ -12,7 +11,12 @@ form {
     margin-top: 5vw;
 }
 
+#opKeuze option {
+    width: 40vw;
+}
+
 .jumbotron {
-    width: 46vw;
-    margin: 1vw 0 2vw 27vw;
+    width: 80%;
+    text-align: center;
+    margin: 0 10%;
 }
