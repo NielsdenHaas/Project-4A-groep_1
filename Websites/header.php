@@ -26,7 +26,7 @@ if (isset($_POST["submit"])) {
                 session_start();
                 $_SESSION["loggedIn"] = true;
 
-                header("Location: placeholder.php");
+                header("Location: eenvoudige-rekenpagina.php");
             } else {
                 $errorMessage = "Incorecte gegevens ingevuld!";
             }
