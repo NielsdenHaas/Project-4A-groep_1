@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+input, button  {
+    padding: 10px 20px;
+}
+
+form {
+    margin-top: 5vw;
+}
+
+.jumbotron {
+    width: 46vw;
+    margin: 1vw 0 2vw 27vw;
+}
