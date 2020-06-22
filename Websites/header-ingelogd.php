@@ -20,13 +20,13 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
     }
     
     #logo_mathMate {
-    width: 50vw;
+    width: 300px;
     height: 100%;
     margin: 20px 0 0 2vw;
 }
 
     #hamburger {
-        margin-top: 0.8vw;
+        margin-top: 33px;
         width: 50px;
         height: 50px;
     }
@@ -38,17 +38,33 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
         background-color: #1E85DF;
         display: block;
         border-radius: 20px;
+        transition: 1s;
+    }
+
+    #hamburger:hover {
+        cursor: pointer;
+    }
+
+    .hamburger_wrapper {
+        position: absolute;
+        top: 100px;
+        right: 0;
+
+        width: 900px;
+        height: 300px;
+        overflow: hidden;
     }
 
     #hamburger_menu {
         position: absolute;
-        top: 100px;
-        right: 20vw;
+        top: 30px;
+        right: -400px;
 
         background-color: white;
         border: #DE781F solid 3px;
         border-radius: 20px;
         padding: 0 20px 20px 20px;
+        transition: 1s;
     }
 
     #hamburger_menu a {
@@ -58,6 +74,10 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
         text-decoration: none;
         margin-top: 20px;
         font-size: 25px;
+    }
+
+    #hamburger_menu a:hover {
+        color: #1E85DF;
     }
 }
 
@@ -79,7 +99,7 @@ header {
 }
 
 #hamburger {
-    margin-top: 0.8vw;
+    margin-top: 20px;
     width: 50px;
     height: 50px;
 }
@@ -99,13 +119,14 @@ header {
     top: 100px;
     right: 0;
 
-    width: 100vw;
-    height: 500px;
+    width: 900px;
+    height: 300px;
     overflow: hidden;
 }
 
 #hamburger_menu {
     position: absolute;
+    top: 40px;
     right: -400px;
 
     background-color: white;
@@ -157,7 +178,12 @@ header {
     var fold = false;
     function hamburgerMenu() {
         if (fold === false) {
-            document.getElementById('hamburger_menu').style.right = '20vw';
+            var hamburger = window.getComputedStyle(document.getElementById('hamburger'));
+            if (hamburger.marginTop == '20px') {
+                document.getElementById('hamburger_menu').style.right = '20vw';
+            } else if (hamburger.marginTop == '33px') {
+                document.getElementById('hamburger_menu').style.right = '1vw';
+            }
 
             document.getElementById('burger2').style.opacity = '0';
             document.getElementById('burger1').style.transform = 'translateY(20px) rotate(45deg)';
