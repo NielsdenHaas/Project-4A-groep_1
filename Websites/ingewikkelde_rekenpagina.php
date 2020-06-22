@@ -24,8 +24,8 @@ include "header-ingelogd.php";
 
 <form>
     <select id="opKeuze">
-        <option id="Talstelsel" placeholder="Berekenen Talstelsel"></option>
-        <option id="Factorizer" placeholder="Factorizer"></option>
+        <option id="Talstelsel" value="Talstelsel" placeholder="Berekenen Talstelsel">...</option>
+        <option id="Factorizer" value="Factorizer" placeholder="Factorizer">...</option>
     </select>
     <input type="number" id="omreken-talstelsel" placeholder="getal invoeren....">
     <input type="number" id="van" placeholder="van....">
@@ -48,3 +48,4 @@ include "footer.php";
 </body>
 
 </html>
+
