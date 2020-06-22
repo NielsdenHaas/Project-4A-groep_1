@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
     echo '<script>console.log("Logged in!")</script>';
@@ -18,7 +18,7 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
         display: flex;
         justify-content: space-between;
     }
-    
+
     #logo_mathMate {
     width: 300px;
     height: 100%;
@@ -122,6 +122,7 @@ header {
     width: 900px;
     height: 300px;
     overflow: hidden;
+    z-index: -1;
 }
 
 #hamburger_menu {
@@ -156,7 +157,7 @@ header {
 
 </style>
 
-    <header>   
+    <header>
         <img id="logo_mathMate" src="images/logo.jpg" alt="Image van het logo">
         <div id="hamburger" onclick="hamburgerMenu()">
             <span id="burger1"></span>
