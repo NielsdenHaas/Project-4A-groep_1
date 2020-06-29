@@ -65,6 +65,7 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
         border-radius: 20px;
         padding: 0 20px 20px 20px;
         transition: 1s;
+        z-index: 5;
     }
 
     #hamburger_menu a {
@@ -134,6 +135,7 @@ header {
     border-radius: 20px;
     padding: 0 20px 20px 20px;
     transition: 1s;
+    z-index: 5;
 }
 
 #hamburger:hover{
