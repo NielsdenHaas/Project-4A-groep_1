@@ -46,7 +46,10 @@
     .wheels {
         display: flex;
         justify-content: space-around;
+        align-items: flex-end;
         text-align: center;
+
+        margin-top: 100px;
     }
     .arrow {
         position: relative;

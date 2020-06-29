@@ -55,6 +55,20 @@ form {
     margin: 0.5vw 0 0 0;
 }
 
+.bereken_btn {
+    color: white;
+    background-color: #1E85DF;
+    border: none;
+    border-radius: 10px;
+}
+
+.wis_btn {
+    color: white;
+    background-color: #DE781F;
+    border: none;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 769px) {
     body {
         width: 90%;

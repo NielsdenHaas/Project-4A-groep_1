@@ -46,8 +46,8 @@ include "header-ingelogd.php";
             <input class="input" type="number" id="naar" placeholder="naar....">
         </div>
         <div class="buttons">
-            <input class="button" type="button" value="Bereken!" onclick="Bereken()">
-            <input class="button" type="button" value="Wissen" onclick="resetform()">
+            <input class="button bereken_btn" type="button" value="Bereken!" onclick="Bereken()">
+            <input class="button wis_btn" type="button" value="Wissen" onclick="resetform()">
         </div>
         <div class="form-group">
             <div id="dResultaat" class="jumbotron"></div>
