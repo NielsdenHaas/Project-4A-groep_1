@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <script src="js/eenvoudige-rekenpagina.js"></script>
+    <script src="script/eenvoudige-rekenpagina.js"></script>
 
     <link rel="stylesheet" href="css/eenvoudige-rekenpagina.css">
 
