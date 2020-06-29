@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="Daaf Wassenaar">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Mathmate | Registratie</title>
     <link rel="stylesheet" type="text/css" href="css/registratie.css">
 </head>
 
