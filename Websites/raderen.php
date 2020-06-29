@@ -26,7 +26,7 @@
             </div>
 
             <div>
-                <button onClick="rotate()">Spin!</button>
+                <button onClick="rotate()" class="btn">Spin!</button>
                 <br>
                 <span id="result"></span>
             </div>

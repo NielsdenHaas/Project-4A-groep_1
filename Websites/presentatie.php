@@ -17,7 +17,7 @@
 <?php include 'header.php';?>
 
 <main>
-    <section class="slideShow" id="slideshow">
+    <section class="slideShow" id="slideshow" onclick="slide()">
 
     </section>
 

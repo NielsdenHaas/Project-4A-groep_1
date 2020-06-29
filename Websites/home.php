@@ -27,7 +27,7 @@
                 gravida vizzle, stuff. Pellentesque giz
                 tortizzle. Own yo' eros. Fusce izzle 
                 dapibizzle turpis tempizzle shut </p>
-                <input id="Button" type="button" value="Lees Meer!">
+                <a href="presentatie.php"><input id="Button" type="button" value="Lees Meer!"></a>
         </section>
         <section>
             <img id="stickman_image" src="images/stickman_home.png" alt="Home afbeelding stickman met rekenmachine">

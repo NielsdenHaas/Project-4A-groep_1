@@ -51,8 +51,9 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
         right: 0;
 
         width: 900px;
-        height: 300px;
+        height: 350px;
         overflow: hidden;
+        z-index: 5;
     }
 
     #hamburger_menu {
@@ -65,7 +66,6 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
         border-radius: 20px;
         padding: 0 20px 20px 20px;
         transition: 1s;
-        z-index: 5;
     }
 
     #hamburger_menu a {
@@ -79,6 +79,20 @@ if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == true) {
 
     #hamburger_menu a:hover {
         color: #1E85DF;
+    }
+
+    @media only screen and (max-width: 393px) {
+        #logo_mathMate {
+            width: 200px;
+        }
+
+        #hamburger_menu {
+            width: 95vw;
+        }
+
+        #hamburger_menu a {
+            font-size: 18px;
+        }
     }
 }
 
@@ -121,9 +135,9 @@ header {
     right: 0;
 
     width: 900px;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
-    z-index: -1;
+    z-index: 5;
 }
 
 #hamburger_menu {
@@ -136,7 +150,6 @@ header {
     border-radius: 20px;
     padding: 0 20px 20px 20px;
     transition: 1s;
-    z-index: 5;
 }
 
 #hamburger:hover{
@@ -169,9 +182,10 @@ header {
 
         <section class="hamburger_wrapper">
             <nav id="hamburger_menu">
-                <a href="#">Eenvoudige Rekenpagina</a>
-                <a href="#">Reeksen Generator</a>
-                <a href="#">Ingewikkelde Rekenpagina</a>
+                <a href="eenvoudige-rekenpagina.php">Eenvoudige Rekenpagina</a>
+                <a href="reeksen.php">Reeksen Generator</a>
+                <a href="raderen.php">Random Getal</a>
+                <a href="ingewikkelde_rekenpagina.php">Ingewikkelde Rekenpagina</a>
                 <a href="#">Shoot the Pig (Math Game)</a>
             </nav>
         </section>

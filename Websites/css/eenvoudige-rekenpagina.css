@@ -29,6 +29,10 @@ p {
     color: #515151;
 }
 
+#inhoud {
+    margin: 100px 0;
+}
+
 .container_aanbod {
     width: 50%;
 }
@@ -48,6 +52,10 @@ p {
     width: 100%;
     transform: scaleX(-1);
     filter: "flipH()";
+}
+
+#image_mobile {
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 1000px) {
