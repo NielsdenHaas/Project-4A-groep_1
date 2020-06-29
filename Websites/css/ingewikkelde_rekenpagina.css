@@ -3,13 +3,26 @@ body {
     margin: 0 20%;
 }
 
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: 'heebo', Sans-Serif;
+    color: #1E85DF;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'heebo', Sans-Serif;
+    color: #515151;
+}
+
 input, button  {
     padding: 10px 20px;
 }
 
 select {
     width: 45vw;
-    height: 2.5vw;
+    height: 30px;
 }
 header {
     margin-bottom: 2vw;
@@ -18,7 +31,14 @@ header {
 form {
     width: 90%;
     text-align: center;
-    margin: 0 5%;
+    margin: 100px 5%;
+}
+
+.container_uitleg {
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+    align-items: center;
 }
 
 .jumbotron {
@@ -33,4 +53,65 @@ form {
 .button {
     width: 22.4vw;
     margin: 0.5vw 0 0 0;
+}
+
+@media only screen and (max-width: 769px) {
+    body {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    #opKeuze {
+        display: block;
+    }
+
+    form div {
+        display: block;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .input {
+        width: 32%;
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+    .button {
+        width: 49%;
+    }
+
+    .jumbotron {
+        width: 100%;
+        min-height: 300px;
+        margin: 10px 0;
+    }
+
+    .form-group {
+        width: 100%!important;
+    }
+
+    @media only screen and (max-width: 635px) {
+        .inputs {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input {
+            width: 100%;
+        }
+    }
 }
