@@ -8,7 +8,7 @@
     <meta name="author" content="M. de Haard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-    <title>MathMate | Presentatie</title>
+    <title>MathMate | Reeksen</title>
     <link rel="stylesheet" type="text/css" href="css/reeksen.css">
     <script type="text/javascript" src="script/reeksen.js"></script>
 </head>
